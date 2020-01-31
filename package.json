@@ -1,0 +1,29 @@
+{
+  "name": "udemy-graphql-intro",
+  "version": "1.0.0",
+  "description": "Udemy course: Complete Guide to Building a GraphQL API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist/ && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpiderRam/udemy-graphql-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpiderRam/udemy-graphql-intro/issues"
+  },
+  "homepage": "https://github.com/SpiderRam/udemy-graphql-intro#readme",
+  "dependencies": {
+    "graphql": "^14.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
